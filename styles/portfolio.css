@@ -1,7 +1,40 @@
-h1 {
-    font-family: 'Montserrat', sans-serif;
+:root {
+    --heading-font-family: 'Montserrat', sans-serif;
+    --default-font-family: 'Noto Sans', sans-serif;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #fe00a8;
 }
 
-p {
-    font-family: 'Noto Sans', sans-serif;
+body {
+    font-family: var(--default-font-family);
+}
+.hero {
+    text-align: center;
+    padding: 240px 20px;
+    background-size: 1280px 602px;
+    background-color: var(--primary-background-color)
+}
+
+.hero h1 {
+    font-family: var(--heading-font-family);
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.hero p {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.logo1{
+    width: 220px;
+    border-radius: 100px;
+
+}
+
+.homeLogo {
+    width: 50px;
+    border-radius: 100px;
 }
