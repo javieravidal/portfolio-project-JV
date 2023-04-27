@@ -1,8 +1,12 @@
 :root {
     --heading-font-family: 'Montserrat', sans-serif;
-    --default-font-family: 'Noto Sans', sans-serif;
+    --default-font-family: 'Poppins', sans-serif;
     --primary-background-color: #ffffff;
     --secondary-background-color: #fe00a8;
+    --first-text-color: #262626;
+    --second-text-color: #ffffff;
+    --third-text-color: #2c2c2c;
+    --fourth-text-color: #f2f2f2;
 }
 
 body {
@@ -10,9 +14,10 @@ body {
 }
 .hero {
     text-align: center;
-    padding: 240px 20px;
-    background-size: 1280px 602px;
-    background-color: var(--primary-background-color)
+    padding: 200px 20px;
+    background-size: 1280px 360px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 
 .hero h1 {
@@ -20,12 +25,14 @@ body {
     font-size: 48px;
     margin: 0;
     padding-bottom: 20px;
+    color: var(--first-text-color);
 }
 .hero p {
     font-size: 24px;
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     margin: 0;
+    color: var(--third-text-color);
 }
 
 .logo1{
@@ -37,4 +44,39 @@ body {
 .homeLogo {
     width: 50px;
     border-radius: 100px;
+}
+
+.hero2 {
+    padding: 150px 20px;
+    text-align: center;
+    background-color: var(--secondary-background-color);
+    
+    background-size: 1280px 602px;
+}
+
+.hero2 h2 {
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    color: var(--second-text-color);
+}
+.hero2 p {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    color: var(--fourth-text-color);
+}
+
+.hero3 {
+    text-align: center;
+    padding: 200px 20px;
+    background-size: 1280px 360px;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+
+.hero4 {
+    text-align: center;
+    padding: 200px 20px;
+    background-size: 1280px 360px;
+    background-color: var(--secondary-background-color);
+    color: var(--primary-text-color);
 }
