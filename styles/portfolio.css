@@ -18,7 +18,7 @@ body {
 }
 .hero {
     text-align: center;
-    padding: 200px 20px;
+    padding: 150px 10px;
     background-size: 1280px 360px;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
@@ -71,16 +71,51 @@ body {
 
 .hero3 {
     text-align: center;
-    padding: 200px 20px;
-    background-size: 1280px 360px;
+    padding: 50px 20px;
+    background-size: 1280px 800px;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 }
 
+.hero3 h2 {
+    font-size: 36px;
+    font-family: var(--heading-font-family);
+    color: var(--first-text-color);
+}
+
+.hero3 p {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    color: var(--third-text-color);
+}
+
+.hero3 a {
+    color: var(--secondary-background-color);
+}
+.hero3 a:hover {
+    font-weight: 1000;
+    color: var(--secondary-background-color);
+}
+
 .hero4 {
     text-align: center;
-    padding: 200px 20px;
+    padding: 150px 20px;
     background-size: 1280px 360px;
     background-color: var(--secondary-background-color);
-    color: var(--primary-text-color);
+    color: var(--second-text-color);
+}
+
+.hero4 h1 {
+    font-family: var(--heading-font-family);
+
+}
+
+.hero4 p {
+    font-family: var(--default-font-family);
+}
+
+form {
+    margin: 0 auto;
+    width: 350px;
+    text-align: left;
 }
