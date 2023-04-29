@@ -71,7 +71,7 @@ body {
 
 .hero3 {
     text-align: center;
-    padding: 50px 20px;
+    padding: 100px 20px;
     background-size: 1280px 800px;
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
@@ -96,6 +96,7 @@ body {
     font-weight: 1000;
     color: var(--secondary-background-color);
 }
+
 
 .hero4 {
     text-align: center;
