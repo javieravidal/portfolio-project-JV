@@ -18,7 +18,7 @@ body {
     
 }
 
-@media (max-width: 915px) {
+@media (max-width: 935px) {
     h1 {
         font-size: 14px;
     }
@@ -33,6 +33,7 @@ body {
     .hero2 p {
         padding: 0;
     }
+
 
 
 
