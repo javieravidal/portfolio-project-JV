@@ -34,10 +34,9 @@ body {
         padding: 0;
     }
 
-
-
-
 }
+
+
 .hero {
     text-align: center;
     padding: 150px 10px;
@@ -126,6 +125,16 @@ body {
     color: var(--secondary-background-color);
 }
 
+.btn {
+    background-color: var(--second-text-color);
+    color: var(--secondary-background-color);
+    border-color: var(--secondary-background-color);
+}
+
+.btn:hover {
+    color: var(--second-text-color);
+    background-color: var(--secondary-background-color);
+}
 
 .hero4 {
     text-align: center;
