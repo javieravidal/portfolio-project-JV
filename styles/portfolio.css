@@ -128,20 +128,12 @@ nav li.active a{
 
 .hero3 a {
     color: var(--secondary-background-color);
-}
-.hero3 a:hover {
-    font-weight: 1000;
-    color: var(--secondary-background-color);
-}
-
-.btn {
-    background-color: var(--second-text-color);
-    color: var(--secondary-background-color);
     border-color: var(--secondary-background-color);
 }
-
-.btn:hover {
-    color: var(--second-text-color);
+.hero3 a:hover {
+    font-weight: 500;
+    color: var(--fourth-text-color);
+    border-color: var(--secondary-background-color);
     background-color: var(--secondary-background-color);
 }
 
@@ -166,4 +158,8 @@ form {
     margin: 0 auto;
     width: 350px;
     text-align: left;
+}
+
+i {
+    margin-left: 3px;
 }
