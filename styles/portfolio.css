@@ -154,12 +154,23 @@ nav li.active a{
     font-family: var(--default-font-family);
 }
 
+.hero4 a {
+    background-color: var(--primary-background-color);
+}
+
+.hero4 a:hover {
+    border-color: var(--primary-background-color);
+    background-color: var(--secondary-background-color);
+    color: var(--second-text-color);
+    font-weight: 500px;
+}
+
 form {
     margin: 0 auto;
     width: 350px;
     text-align: left;
 }
 
-i {
+.hero3 i {
     margin-left: 3px;
 }
